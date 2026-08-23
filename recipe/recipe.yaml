@@ -1,5 +1,5 @@
 context:
-  version: "1.5.1"
+  version: "1.5.2"
 
 package:
   name: pacparser
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/manugarg/pacparser/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 88dda1833b5c467ea61d0217fa58fbc7980f7c5a856ca2af325e6a110b1c081d
+  sha256: d744c3972f96e499dcf98fb853112e7b581fd53bb9bb4d9b7df738c2e7519cba
   patches:
     # The statically linked QuickJS needs pthreads, which glibc < 2.34
     # does not provide as part of libc
